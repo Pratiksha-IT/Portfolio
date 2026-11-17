@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratiksha Satpute | Full-Stack & Data Science Portfolio</title>
+<meta name="description" content="Final-year IT student at JSCOE, Pune. MERN stack developer with Python and data science foundations. View projects, experience and resume.">
+<meta name="theme-color" content="#132033">
+<meta property="og:title" content="Pratiksha Satpute | Portfolio">
+<meta property="og:description" content="Final-year IT student building full-stack apps and learning data science.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress"></div>
+<header class="header">
+  <div class="bar wrap">
+    <a href="#home" class="logo">Pratiksha Satpute</a>
+      <nav id="nav" aria-label="Main">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+      <a href="assets/Pratiksha_Satpute_Resume.pdf" download class="nav-cta">Resume</a>
+    </nav>
+    <div class="tools"><button class="icon-btn" id="themeBtn" aria-label="Switch to dark mode">◐</button><button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button></div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero wrap" id="home">
+  <div>
+    <p class="status"><i></i> Open to internships and full-time roles</p>
+    <h1>Final-year IT student building full-stack apps and learning data science.</h1>
+    <p class="lead">I build web apps with the MERN stack and Python, and I’m working on an NLP-based learning analytics project for my final-year major project.</p>
+    <p class="typed" aria-hidden="true">Currently into: <span id="typed"></span><i class="caret"></i></p>
+    <div class="actions">
+      <a href="#projects" class="btn primary">See my projects</a>
+      <a href="assets/Pratiksha_Satpute_Resume.pdf" download class="btn">Download resume</a>
+    </div>
+    <dl class="stats">
+      <div><dt>8.32</dt><dd>CGPA</dd></div>
+      <div><dt>2</dt><dd>Internships</dd></div>
+      <div><dt>2027</dt><dd>Graduation</dd></div>
+    </dl>
+  </div>
+  <div class="code" aria-hidden="true">
+    <div class="dots"><i></i><i></i><i></i><span>profile.js</span></div>
+<pre><b class="k">const</b> pratiksha = {
+  role:     <b class="s">"Final-year IT student"</b>,
+  college:  <b class="s">"JSCOE, Pune"</b>,
+  stack:    [<b class="s">"React"</b>, <b class="s">"Node.js"</b>,
+             <b class="s">"MongoDB"</b>, <b class="s">"Python"</b>],
+  learning: <b class="s">"Data Science"</b>,
+  building: <b class="s">"Learning Gap Analyzer"</b>,
+  openTo:   <b class="s">"Internships, full-time"</b>
+};</pre>
+  </div>
+</section>
+
+<section class="section wrap" id="about">
+  <h2>About me</h2>
+  <div class="cols">
+    <div class="prose">
+      <p>I’m a final-year Information Technology student at JSPM’s Jayawantrao Sawant College of Engineering, Pune. I like turning concepts into working software, from REST APIs and authentication to dashboards and data-driven features.</p>
+      <p>During my Full Stack Web Development internship I built Dwanikosh, a MERN music player. Now I’m extending that into Python, SQL and data science, and applying NLP in my major project.</p>
+    </div>
+    <div class="edu">
+      <h3>Education</h3>
+      <p><strong>B.E. Information Technology</strong></p>
+      <p>JSCOE, Hadapsar, Pune</p>
+      <p class="muted">Expected 2027 · CGPA 8.32</p>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="experience">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    <li>
+      <time>Nov 2025 – Feb 2026</time>
+      <h3>Full Stack Web Development Intern, WebStack Academy</h3>
+      <ul>
+        <li>Built Dwanikosh, a MERN music player with authentication, personal library and playback modules.</li>
+        <li>Created Node.js and Express.js APIs and MongoDB data models for client-server data exchange.</li>
+        <li>Designed a responsive, mobile-first UI with React.js and Tailwind CSS.</li>
+      </ul>
+    </li>
+    <li>
+      <time>4 weeks</time>
+      <h3>Python Programming Intern, CodSoft</h3>
+      <ul>
+        <li>Delivered 3 Python mini projects: Console Calculator, To-Do List and Rock-Paper-Scissors.</li>
+        <li>Practised logic building, control flow and user input handling.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+<section class="section wrap" id="skills">
+  <h2>Skills</h2>
+  <div class="skill-grid" id="skillGrid"></div>
+  <h3 class="sub">Certifications</h3>
+  <ul class="certs" id="certList"></ul>
+</section>
+
+<section class="section wrap" id="projects">
+  <h2>Projects</h2>
+  <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+  <div class="project-grid" id="projectGrid"></div>
+</section>
+
+<section class="section wrap" id="contact">
+  <div class="contact">
+    <div>
+      <h2>Let’s talk</h2>
+      <p class="lead">Hiring, collaborating or have a question? Send a message or reach me on these links.</p>
+      <ul class="links">
+        <li><a href="mailto:pratikshasatpute2005@gmail.com">Email<span>pratikshasatpute2005@gmail.com</span></a></li>
+        <li><a href="https://www.linkedin.com/in/pratiksha-satpute-21b678293" target="_blank" rel="noopener">LinkedIn<span>pratiksha-satpute-21b678293</span></a></li>
+        <li><a href="https://github.com/Pratiksha-IT" target="_blank" rel="noopener">GitHub<span>Pratiksha-IT</span></a></li>
+        <li><a href="https://leetcode.com/u/Pratiksha-Satpute" target="_blank" rel="noopener">LeetCode<span>Pratiksha-Satpute</span></a></li>
+      </ul>
+      <button type="button" class="btn copy" id="copyEmail">Copy email</button>
+    </div>
+    <form id="contactForm" class="form">
+      <label>Name<input name="name" type="text" autocomplete="name" required></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button type="submit" class="btn primary">Send message</button>
+      <p id="formStatus" class="form-status" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <span>© <span id="year">2026</span> Pratiksha Satpute</span>
+  <a href="#home">Back to top ↑</a>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
